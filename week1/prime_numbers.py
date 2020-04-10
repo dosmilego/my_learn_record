@@ -17,8 +17,11 @@ __author__ = 'changyy'
 说明：素数指的是只能被1和自身整除的正整数（不包括1）。
 """
 
-for i in range(4, 100):
-    for j in range(2, i):
-        while i % j == 0:
+for i in range(2, 101):
+    tag = True
+    for j in range(2, int(i / 2) + 1):
+        if i % j == 0:
+            tag = False
             break
-        print(i)
+    if tag:
+        print(i, end=' ')
