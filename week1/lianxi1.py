@@ -14,8 +14,8 @@
 __author__ = 'changyy'
 
 
-sum1 = 0
+sum11 = 0
 for i in range(1, 101):
     if i % 2 == 1:
-        sum1 = sum1 + i
-print(sum1)
+        sum11 = sum11 + i
+print(sum11)
