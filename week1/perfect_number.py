@@ -25,8 +25,8 @@ for numbers in range(1, 10000):
     for i in range(1, int(numbers / 2) + 1):
         if numbers % i == 0:
             result += i
-
     if result == numbers:
         print(numbers)
 end = time.clock()
-print("final is in ", end-start)
+# 测试发现运行耗时8.3s，算法待优化
+print('runtime is in', end - start)
