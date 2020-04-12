@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
-   File Name：     tuxingshuchu.py
+   File Name：     triangle.py
    Description :
    Author :       changyy
    date：          2020/4/10 0010 17:19
